@@ -257,7 +257,7 @@ class Locale:
 
         for abbreviation in abbreviations:
             abbreviation_string += '(?<! ' + abbreviation[:-1] + ')'  # negative lookbehind
-        if self.shortname in ['fi', 'cs', 'hu', 'de', 'da']:
+        if self.shortname in ['fi', 'cs', 'hu', 'de', 'da', 'pl']:
             for digit_abbreviation in digit_abbreviations:
                 abbreviation_string += '(?<!' + digit_abbreviation + ')'  # negative lookbehind
 
