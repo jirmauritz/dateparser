@@ -621,7 +621,9 @@ language_map = {
         "pa-Arab",
         "pa-Guru"
     ],
-    "pl": [],
+    "pl": [
+        "pl"
+    ],
     "ps": [
         "ps"
     ],
